@@ -1,0 +1,3 @@
+# Preface {.unnumbered}
+
+This is a book about Vehicle Routing Problems (VRP).

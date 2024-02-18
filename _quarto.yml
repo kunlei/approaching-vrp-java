@@ -1,0 +1,45 @@
+project:
+  type: book
+
+book:
+  title: "Approaching (Many) Vehicle Routing Problems"
+  author: "Kunlei Lian"
+  date: "8/9/2023"
+  site-url: https://kunlei.github.io/approaching-vrp-java/
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - part: "Exact Algorithms"
+      chapters: 
+        - ip-tsp.ipynb
+        - ip-cvrp.ipynb
+        - column-generation-cvrp.ipynb
+    - part: "Heuristic and Metaheuristics"
+      chapters: 
+        - heuristic-tsp.ipynb
+        - heuristic-cvrp.ipynb
+        - lns-cvrp.ipynb
+        - gls-cvrp.ipynb
+    - part: "Google OR-Tools"
+      chapters: 
+        - ortools-tsp.ipynb
+        - ortools-cvrp.ipynb
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: journal
+    include-in-header: 
+      - text: |
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2749302331976623" crossorigin="anonymous"></script>
+      - mathjax.html
+
+    html-math-method: mathjax
+  pdf:
+    documentclass: scrreprt
+
+
+
