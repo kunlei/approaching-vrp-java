@@ -4,19 +4,9 @@
     "href": "index.html",
     "title": "Approaching (Many) Vehicle Routing Problems",
     "section": "",
-    "text": "Preface\nThis is a book about Vehicle Routing Problems (VRP).",
+    "text": "Preface\nMy experience with Vehicle Routing Problems (VRP) dated back to my Ph.D. years when I designed and implemented algorithms to solve the Consistent Vehicle Routing Problem (ConVRP), a variant of the Periodic Vehicle Routing Problem (PVRP) with application in the home healthcare industry. Since routing optimization is ubiquitous in supply chain domain, I’ve also solved various VRP variants in industry since I started working in industry.\nVRP is a classical optimization problem in Operations Research (OR) and there are many solution approaches to attack this problem, mostly depending on the complexity and/or the scale of the problem hand. In this book (notebook), I intend to document the various approaches to (effectively) solve VRPs. Consider them my secrect sauces for routing optimization.",
     "crumbs": [
       "Preface"
-    ]
-  },
-  {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "Introduction",
-    "section": "",
-    "text": ".",
-    "crumbs": [
-      "Introduction"
     ]
   },
   {
