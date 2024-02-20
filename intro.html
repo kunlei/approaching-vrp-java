@@ -145,13 +145,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./ip-tsp.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Exact Algorithms for TSP</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Traveling Salesman Problem</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./ip-cvrp.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Exact Algorithms for CVRP</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Capacitated Vehicle Routing Problem</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -279,10 +279,12 @@ ul.task-list li input[type="checkbox"] {
 <section id="heuristic-and-metaheuristics" class="level2">
 <h2 class="anchored" data-anchor-id="heuristic-and-metaheuristics">Heuristic and metaheuristics</h2>
 <p>We will mostly look at some constructive heuristics for TSP and VRP. In addition, we will examine how to implement various metaheuristics to solve these problems.</p>
+<p>Large neighborhood search (LNS) is a popular searching algorithm for VRPs. It’s powering several industry-level routing optimization engines I am aware of. Several other routing engines also utilize Guided Local Search (GLS).</p>
 </section>
 <section id="open-source-routing-solvers" class="level2">
 <h2 class="anchored" data-anchor-id="open-source-routing-solvers">Open source routing solvers</h2>
-<p>The two open source VRP solvers we will check are the Google OR-Tools routing solver and Timefold.</p>
+<p>The two open source VRP solvers we will check are the Google OR-Tools routing solver and Timefold. Google OR-Tools offers a routing engine that provides routing optimization capabilities out of the box. Once getting used to its modeling syntax, it provides a jump start to solving many VRPs.</p>
+<p>Similarly, Timefold is a great open source solver for planning and scheduling optimization problems.</p>
 
 
 </section>
@@ -692,8 +694,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./ip-tsp.html" class="pagination-link" aria-label="<span class='chapter-number'>1</span>&nbsp; <span class='chapter-title'>Exact Algorithms for TSP</span>">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Exact Algorithms for TSP</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./ip-tsp.html" class="pagination-link" aria-label="<span class='chapter-number'>1</span>&nbsp; <span class='chapter-title'>Traveling Salesman Problem</span>">
+        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Traveling Salesman Problem</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
