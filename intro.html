@@ -200,7 +200,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
- <span class="menu-text">Google OR-Tools</span></a>
+ <span class="menu-text">Open Source Routing Solvers</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -238,7 +238,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#exact-algorithms" id="toc-exact-algorithms" class="nav-link active" data-scroll-target="#exact-algorithms">Exact algorithms</a></li>
+  <li><a href="#heuristic-and-metaheuristics" id="toc-heuristic-and-metaheuristics" class="nav-link" data-scroll-target="#heuristic-and-metaheuristics">Heuristic and metaheuristics</a></li>
+  <li><a href="#open-source-routing-solvers" id="toc-open-source-routing-solvers" class="nav-link" data-scroll-target="#open-source-routing-solvers">Open source routing solvers</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -262,8 +270,22 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>The solution approaches to attacking VRPs fall into three major categories and the book is also structured correspondingly.</p>
+<section id="exact-algorithms" class="level2">
+<h2 class="anchored" data-anchor-id="exact-algorithms">Exact algorithms</h2>
+<p>Exact algorithms are of particular interest if we want optimal solutions for our problems at hand. Unfortunately, VRPs are computationall intractable in nature unless the problem in small in scale or possess certain special problem structure. In this section, we will cover several mathematical modeling approaches towards the Traveling Salesman Problem (TSP) and the Capacitate VRP (CVRP).</p>
+<p>More importantly, we will look into one powerful technique, column generation, that not noly see great success in solving VRPs, but many other optimization problems in general. Column generation is my personal favorite technique in solving VRP in that it is a very flexible framework that in itself can find good solutions, but can also be combined with other algorithms to jointly come up with even better solutions.</p>
+</section>
+<section id="heuristic-and-metaheuristics" class="level2">
+<h2 class="anchored" data-anchor-id="heuristic-and-metaheuristics">Heuristic and metaheuristics</h2>
+<p>We will mostly look at some constructive heuristics for TSP and VRP. In addition, we will examine how to implement various metaheuristics to solve these problems.</p>
+</section>
+<section id="open-source-routing-solvers" class="level2">
+<h2 class="anchored" data-anchor-id="open-source-routing-solvers">Open source routing solvers</h2>
+<p>The two open source VRP solvers we will check are the Google OR-Tools routing solver and Timefold.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

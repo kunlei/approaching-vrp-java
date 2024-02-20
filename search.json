@@ -4,9 +4,39 @@
     "href": "index.html",
     "title": "Approaching (Many) Vehicle Routing Problems",
     "section": "",
-    "text": "Preface\nMy experience with Vehicle Routing Problems (VRP) dated back to my Ph.D. years when I designed and implemented algorithms to solve the Consistent Vehicle Routing Problem (ConVRP), a variant of the Periodic Vehicle Routing Problem (PVRP) with application in the home healthcare industry. Since routing optimization is ubiquitous in supply chain domain, I’ve also solved various VRP variants in industry since I started working in industry.\nVRP is a classical optimization problem in Operations Research (OR) and there are many solution approaches to attack this problem, mostly depending on the complexity and/or the scale of the problem hand. In this book (notebook), I intend to document the various approaches to (effectively) solve VRPs. Consider them my secrect sauces for routing optimization.",
+    "text": "Preface\nMy experience with Vehicle Routing Problems (VRP) dated back to my Ph.D. years when I designed and implemented algorithms to solve the Consistent Vehicle Routing Problem (ConVRP), a variant of the Periodic Vehicle Routing Problem (PVRP) with application in the home healthcare industry. Since routing optimization is ubiquitous in supply chain domain, I’ve also solved various VRP variants since I started working in industry.\nVRP is a classical optimization problem in Operations Research (OR) and there are many solution approaches to attack this problem, mostly depending on the complexity and/or the scale of the problem at hand. In this book (notebook), I intend to document the various approaches to (effectively) solve VRPs. Consider them my secrect sauces for routing optimization.",
     "crumbs": [
       "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html#exact-algorithms",
+    "href": "intro.html#exact-algorithms",
+    "title": "Introduction",
+    "section": "Exact algorithms",
+    "text": "Exact algorithms\nExact algorithms are of particular interest if we want optimal solutions for our problems at hand. Unfortunately, VRPs are computationall intractable in nature unless the problem in small in scale or possess certain special problem structure. In this section, we will cover several mathematical modeling approaches towards the Traveling Salesman Problem (TSP) and the Capacitate VRP (CVRP).\nMore importantly, we will look into one powerful technique, column generation, that not noly see great success in solving VRPs, but many other optimization problems in general. Column generation is my personal favorite technique in solving VRP in that it is a very flexible framework that in itself can find good solutions, but can also be combined with other algorithms to jointly come up with even better solutions.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "intro.html#heuristic-and-metaheuristics",
+    "href": "intro.html#heuristic-and-metaheuristics",
+    "title": "Introduction",
+    "section": "Heuristic and metaheuristics",
+    "text": "Heuristic and metaheuristics\nWe will mostly look at some constructive heuristics for TSP and VRP. In addition, we will examine how to implement various metaheuristics to solve these problems.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "intro.html#open-source-routing-solvers",
+    "href": "intro.html#open-source-routing-solvers",
+    "title": "Introduction",
+    "section": "Open source routing solvers",
+    "text": "Open source routing solvers\nThe two open source VRP solvers we will check are the Google OR-Tools routing solver and Timefold.",
+    "crumbs": [
+      "Introduction"
     ]
   },
   {
